@@ -41,11 +41,11 @@ python manage.py runserver
 #
 Once the server is running, you can access the POST API at:
 
-#### for creating
+### For Creating
 #
 http://127.0.0.1:8000/api/reminders/
 
-##### JSON:
+### JSON:
 {
   "date": "2025-05-15",
   "time": "10:30:00",
@@ -53,7 +53,7 @@ http://127.0.0.1:8000/api/reminders/
   "reminder_method": "Email"
 }
 
-#### for viewing
+#### For Viewing
 #
 http://127.0.0.1:8000/api/reminders/all/
 
