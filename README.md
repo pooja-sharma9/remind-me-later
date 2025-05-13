@@ -53,7 +53,7 @@ http://127.0.0.1:8000/api/reminders/
   "reminder_method": "Email"
 }
 
-#### For Viewing
+### For Viewing
 #
 http://127.0.0.1:8000/api/reminders/all/
 
