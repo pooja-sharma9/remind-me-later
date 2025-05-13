@@ -42,6 +42,7 @@ python manage.py runserver
 Once the server is running, you can access the POST API at:
 
 #### for creating
+#
 http://127.0.0.1:8000/api/reminders/
 
 ##### JSON:
@@ -53,6 +54,7 @@ http://127.0.0.1:8000/api/reminders/
 }
 
 #### for viewing
+#
 http://127.0.0.1:8000/api/reminders/all/
 
 ### 7. Viewing and Interacting with SQLite Database
