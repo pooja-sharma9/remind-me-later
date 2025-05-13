@@ -14,28 +14,28 @@ Follow the steps below to clone and run the project.
 
 If you don't have `venv` created:
 
-## python -m venv venv
+### python -m venv venv
 
 #### Activate the virtual environment:
 ##### On Windows:
-## venv\scripts\activate
+### venv\scripts\activate
 
 ### 3. Install Dependencies
 #
 Install the required packages:
 
-## pip install -r requirements.txt
+### pip install -r requirements.txt
 
 ### 4. Run Migrations
 #
-## python manage.py makemigrations
-## python manage.py migrate
+### python manage.py makemigrations
+### python manage.py migrate
 
 ### 5. Run the Development Server
 #
 Start the server:
 
-## python manage.py runserver
+### python manage.py runserver
 
 ### 6. Access the API
 #
@@ -43,7 +43,7 @@ Once the server is running, you can access the POST API at:
 
 ### For Creating
 #
-## http://127.0.0.1:8000/api/reminders/
+http://127.0.0.1:8000/api/reminders/
 
 ### JSON:
 {
@@ -55,23 +55,23 @@ Once the server is running, you can access the POST API at:
 
 ### For Viewing
 #
-## http://127.0.0.1:8000/api/reminders/all/
+http://127.0.0.1:8000/api/reminders/all/
 
 ### 7. Viewing and Interacting with SQLite Database
 #
 #### Step 1: Open the SQLite Shell
-## sqlite3 db.sqlite3
+sqlite3 db.sqlite3
 #
 #### Step 2: List tables
-## .tables
+.tables
 #
 #### Step 3: View the schema of their custom table (`reminders_reminder`)
-## .schema reminders_reminder
+.schema reminders_reminder
 #
 #### Step 4: See all the data in the `reminders_reminder` table
-## SELECT * FROM reminders_reminder;
+SELECT * FROM reminders_reminder;
 #
 #### Step 5: To exit the SQLite shell
-## .quit
+.quit
 #
 
