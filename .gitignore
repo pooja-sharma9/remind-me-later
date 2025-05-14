@@ -25,6 +25,5 @@ Thumbs.db
 # Pytest cache
 .pytest_cache/
 
-# Migrations (optional - if you don’t want to track them)
-# */migrations/
-# !*/migrations/__init__.py
+# Migrations
+*/migrations/*
