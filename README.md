@@ -55,7 +55,7 @@ http://127.0.0.1:8000/api/reminders/
   "date": "2025-05-15",
   "time": "10:30:00",
   "message": "Meeting with team",
-  "reminder_method": "Email"
+  "reminder_method": "email"
 }
 
 ### For Viewing
