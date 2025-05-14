@@ -13,6 +13,8 @@ Follow the steps below to clone and run the project.
 
 ### git clone https://github.com/pooja-sharma9/remind-me-later.git
 
+#### cd remind-me-later
+
 ### 2. Create and Activate Virtual Environment
 #
 If you don't have `venv` created:
