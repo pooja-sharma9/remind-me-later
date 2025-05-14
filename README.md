@@ -9,9 +9,12 @@ Follow the steps below to clone and run the project.
 
 ### 1. Clone the Repository
 #
+### First create a folder "remind-me-later"
+
+### git clone https://github.com/pooja-sharma9/remind-me-later.git
+
 ### 2. Create and Activate Virtual Environment
 #
-
 If you don't have `venv` created:
 
 ### python -m venv venv
