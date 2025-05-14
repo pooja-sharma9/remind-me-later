@@ -26,4 +26,5 @@ Thumbs.db
 .pytest_cache/
 
 # Migrations
-*/migrations/*
+**/migrations/*
+!**/migrations/__init__.py
